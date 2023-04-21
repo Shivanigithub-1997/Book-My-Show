@@ -4,7 +4,7 @@ import { NextArrow, PrevArrow } from "./Arrows.Component";
 
 const HeroCarousel =() =>{
     
-    const [images, setImages]= useState(
+    const [images]= useState(
         [
             {
         adult: false,
